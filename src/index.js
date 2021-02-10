@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux'
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CryptoCurrencyList from './components/CryptoCurrencyList'
+import store from './redux/store'
+import Crypto from './components/Crypto'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <CryptoCurrencyList/>
+      <Crypto/>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
