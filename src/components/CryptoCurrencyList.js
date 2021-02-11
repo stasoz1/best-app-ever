@@ -5,7 +5,6 @@ import Crypto from './Crypto'
 
 const CryptoCurrencyList = () => {
     const dispatch = useDispatch()
-    
     useEffect(() => {
         dispatch(addCrypto())
     }, [])
