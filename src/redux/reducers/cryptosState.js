@@ -9,8 +9,17 @@ const initialState = {
         LTC: {
             USD: 172.74,
             UAH: 4673
+        },
+        ETH: {
+            USD: 172.74,
+            UAH: 4673
+        },
+        LOLIk: {
+            USD: 172.74,
+            UAH: 4673
         }
     },
+    
     loading: null
 };
 

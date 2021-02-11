@@ -3,11 +3,8 @@ import axios from 'axios';
 
 export const addCrypto = () => {
     return dispatch => {
-      
-
-      setTimeout(() => {
-        dispatch(getCryptoStarted());
-        axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,ETH&tsyms=USD,UAH')
+      dispatch(getCryptoStarted());
+      axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,ETH,XRP&tsyms=USD,UAH')
         .then(res => {
           dispatch(getCryptoSuccess(res.data));
         })
@@ -15,8 +12,6 @@ export const addCrypto = () => {
         .catch(err => {
           dispatch(getCryptoFailure(err.message));
         });
-      }, 2000);
-     
     };
   };
 

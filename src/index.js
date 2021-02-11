@@ -5,13 +5,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import CryptoCurrencyList from './components/CryptoCurrencyList'
 import store from './redux/store'
-import Crypto from './components/Crypto'
+import Header from './components/Header'
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
+      <Header/>
       <CryptoCurrencyList/>
-      <Crypto/>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

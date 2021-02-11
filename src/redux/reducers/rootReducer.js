@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import theme from './theme'
+import themeState from './themeState'
 import cryptosState from './cryptosState'
 
 export default combineReducers({ 
-    theme, 
+    themeState, 
     cryptosState 
 })

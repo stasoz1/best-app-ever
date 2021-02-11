@@ -9,17 +9,18 @@ const CryptoCurrencyList = () => {
     // useEffect(() => {
     //     dispatch(addCrypto())
     // }, [])
-
     
     const cryptos = useSelector(state => state.cryptosState.cryptos);
     const renderedListItems = Object.keys(cryptos).map((value, key) => {
-        var destr = ({cryptoName: value, cryptoCurrency: [Object.keys(cryptos[value])]})
+        var destr = ({cryptoName: value, cryptoCurrencies: Object.entries(cryptos[value])})
         return (<Crypto cryptos={destr} key={key}/>)
     })
     
     return(
         <div>
-            {renderedListItems}
+            <div className="row" style={{padding:"25px"}}>
+                {renderedListItems}
+            </div>
         </div>
     ) 
 }
