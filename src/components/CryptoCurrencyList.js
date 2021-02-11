@@ -18,7 +18,7 @@ const CryptoCurrencyList = () => {
     
     return(
         <div>
-            <div className="row" style={{padding:"25px"}}>
+            <div className="row" style={{padding:"25px", margin:"0"}}>
                 {renderedListItems}
             </div>
         </div>

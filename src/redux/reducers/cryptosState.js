@@ -1,26 +1,9 @@
-import { GET_CRYPTO_SUCCESS, GET_CRYPTO_STARTED, GET_CRYPTO_ENDED } from '../actions/actionTypes'
+import { GET_CRYPTO_SUCCESS, GET_CRYPTO_STARTED, GET_CRYPTO_ENDED, GET_CRYPTO_FAILURE } from '../actions/actionTypes'
 
 const initialState = {
-    cryptos: {
-        BTC: {
-            USD: 47681.7,
-            UAH: 1289.36
-        },
-        LTC: {
-            USD: 172.74,
-            UAH: 4673
-        },
-        ETH: {
-            USD: 172.74,
-            UAH: 4673
-        },
-        LOLIk: {
-            USD: 172.74,
-            UAH: 4673
-        }
-    },
-    
-    loading: null
+    cryptos: [],
+    loading: null,
+    error: null
 };
 
 const cryptosState = (state = initialState, action) => {
@@ -33,6 +16,9 @@ const cryptosState = (state = initialState, action) => {
         }
         case GET_CRYPTO_ENDED: {
             return { ...state, loading: action.payload }
+        }
+        case GET_CRYPTO_FAILURE: {
+            return { ...state, error: action.payload}
         }
         default: return state;
     }

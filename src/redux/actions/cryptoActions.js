@@ -4,7 +4,7 @@ import axios from 'axios';
 export const addCrypto = () => {
     return dispatch => {
       dispatch(getCryptoStarted());
-      axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,ETH,XRP&tsyms=USD,UAH')
+      axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,ETH,XRP,BCH,DOGE&tsyms=USD,UAH')
         .then(res => {
           dispatch(getCryptoSuccess(res.data));
         })
