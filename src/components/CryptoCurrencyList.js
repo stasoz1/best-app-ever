@@ -4,11 +4,11 @@ import { useEffect } from 'react'
 import Crypto from './Crypto'
 
 const CryptoCurrencyList = () => {
-    // const dispatch = useDispatch()
+    const dispatch = useDispatch()
     
-    // useEffect(() => {
-    //     dispatch(addCrypto())
-    // }, [])
+    useEffect(() => {
+        dispatch(addCrypto())
+    }, [])
     
     const cryptos = useSelector(state => state.cryptosState.cryptos);
     const renderedListItems = Object.keys(cryptos).map((value, key) => {
