@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crypto-father/static/css/main.f1043938.chunk.css",
+    "main.js": "/crypto-father/static/js/main.fb0adb54.chunk.js",
+    "main.js.map": "/crypto-father/static/js/main.fb0adb54.chunk.js.map",
+    "runtime-main.js": "/crypto-father/static/js/runtime-main.0501f0e2.js",
+    "runtime-main.js.map": "/crypto-father/static/js/runtime-main.0501f0e2.js.map",
+    "static/js/2.54147532.chunk.js": "/crypto-father/static/js/2.54147532.chunk.js",
+    "static/js/2.54147532.chunk.js.map": "/crypto-father/static/js/2.54147532.chunk.js.map",
+    "static/js/3.a928371a.chunk.js": "/crypto-father/static/js/3.a928371a.chunk.js",
+    "static/js/3.a928371a.chunk.js.map": "/crypto-father/static/js/3.a928371a.chunk.js.map",
+    "index.html": "/crypto-father/index.html",
+    "static/css/main.f1043938.chunk.css.map": "/crypto-father/static/css/main.f1043938.chunk.css.map",
+    "static/js/2.54147532.chunk.js.LICENSE.txt": "/crypto-father/static/js/2.54147532.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0501f0e2.js",
+    "static/js/2.54147532.chunk.js",
+    "static/css/main.f1043938.chunk.css",
+    "static/js/main.fb0adb54.chunk.js"
+  ]
+}
