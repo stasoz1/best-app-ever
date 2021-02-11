@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/best-app-ever/static/css/main.f1043938.chunk.css",
-    "main.js": "/best-app-ever/static/js/main.8aa28b19.chunk.js",
-    "main.js.map": "/best-app-ever/static/js/main.8aa28b19.chunk.js.map",
+    "main.js": "/best-app-ever/static/js/main.abd815ef.chunk.js",
+    "main.js.map": "/best-app-ever/static/js/main.abd815ef.chunk.js.map",
     "runtime-main.js": "/best-app-ever/static/js/runtime-main.fced50c8.js",
     "runtime-main.js.map": "/best-app-ever/static/js/runtime-main.fced50c8.js.map",
-    "static/js/2.54147532.chunk.js": "/best-app-ever/static/js/2.54147532.chunk.js",
-    "static/js/2.54147532.chunk.js.map": "/best-app-ever/static/js/2.54147532.chunk.js.map",
+    "static/js/2.dbb7b359.chunk.js": "/best-app-ever/static/js/2.dbb7b359.chunk.js",
+    "static/js/2.dbb7b359.chunk.js.map": "/best-app-ever/static/js/2.dbb7b359.chunk.js.map",
     "static/js/3.a928371a.chunk.js": "/best-app-ever/static/js/3.a928371a.chunk.js",
     "static/js/3.a928371a.chunk.js.map": "/best-app-ever/static/js/3.a928371a.chunk.js.map",
     "index.html": "/best-app-ever/index.html",
     "static/css/main.f1043938.chunk.css.map": "/best-app-ever/static/css/main.f1043938.chunk.css.map",
-    "static/js/2.54147532.chunk.js.LICENSE.txt": "/best-app-ever/static/js/2.54147532.chunk.js.LICENSE.txt"
+    "static/js/2.dbb7b359.chunk.js.LICENSE.txt": "/best-app-ever/static/js/2.dbb7b359.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fced50c8.js",
-    "static/js/2.54147532.chunk.js",
+    "static/js/2.dbb7b359.chunk.js",
     "static/css/main.f1043938.chunk.css",
-    "static/js/main.8aa28b19.chunk.js"
+    "static/js/main.abd815ef.chunk.js"
   ]
 }
